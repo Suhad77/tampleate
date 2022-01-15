@@ -1,0 +1,52 @@
+*{
+    margin: 0 auto;
+}
+
+.prevue-card{
+    background:  hsl(233, 47%, 7%);
+    padding: 140px;
+    display: flex;
+}
+.contant{
+    background: hsl(244, 38%, 16%);
+    /* margin: 0 auto; */
+    color: white;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    padding: 60px;
+}
+.contant h2{
+    padding: 15px 0;
+}
+.contant h2 span{
+    color: hsl(277, 64%, 61%);
+}
+.contant p{
+    padding: 15px 0;
+}
+.view{
+    display: flex;
+    text-transform: uppercase;  
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;  
+}
+.view :first-child{
+    margin-left:0 ;
+}
+
+
+
+
+.left-image{
+    background-image: url('../images/image-header-desktop.jpg');
+    z-index: 1;
+    background-size: cover;
+    width: 160vh;
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;  
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(170, 92, 219, 0.5);
+}
